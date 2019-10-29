@@ -1,0 +1,22 @@
+
+.one{
+    display: black;
+
+    width: 100px;
+    height: 100px;
+    border: solid 1px #FC5185;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.one:hover{
+    border: solid 1px #FC5185;
+    border-radius: 0px;
+    transform: rotate(180deg);
+}
+.one:active{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 50px 50px;
+    border-color: transparent transparent #007bff transparent;
+}
